@@ -1,5 +1,5 @@
-def sum_xy(x,y):
-    return x+y
+def sum_xy(value_1,value_2):
+    return value_1 + value_2
 
 
 if __name__ == "__main__":
