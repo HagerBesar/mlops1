@@ -1,3 +1,5 @@
+import sys
+sys.path.append('E:\1-AI_Iti\MLOPS\Task1\mlopsT1\sum.py')
 from sum import sum_xy
 
 def test_sum():

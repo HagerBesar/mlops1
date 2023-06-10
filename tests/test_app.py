@@ -1,3 +1,6 @@
+import sys
+sys.path.append('E:\1-AI_Iti\MLOPS\Task1\mlopsT1\app.py')
+
 from app import app
 from fastapi.testclient import TestClient
 
@@ -9,4 +12,3 @@ def test_home():
     response = client.get("/")
     assert response.status_code == 200
     assert response.json() == "Hello Hager"
-    
